@@ -1,20 +1,29 @@
 "use client";
 
 import { usePathname } from "next/navigation";
+import type { ReactNode } from "react";
+import Image from "next/image";
+
 
 export default function NavbarDescription() {
   const pathname = usePathname();
 
-  const descriptions: Record<string, string> = {
-    "/": "Let's build a brand & product that aims to solve these problems…",
-    "/about": "Learn more about me.",
-    "/resume": "Explore my projects.",
-    "/contact": "Get in touch with me.",
+  const content: Record<string, ReactNode> = {
+    "/": <p>→ Let's build a brand & product that aims to solve these problems…</p>,
+    "/about": <p>→ Learn more about me.</p>,
+    "/resume": <p>→ Explore my projects.</p>,
+    "/contact": <p>→ Get in touch with me.</p>,
+    "/locaiPage": <span className="flex items-center gap-4">→ <Image alt="" src="/img/locai.svg" width={70} height={70}></Image></span>,
+    "/egardenPage": <span className="flex items-center gap-4">→ <Image alt="" src="/img/sunrise.svg" width={150} height={150}></Image></span>,
+    "/viacademyPage": <span className="flex items-center gap-4">→ <Image alt="" src="/img/viacademy.svg" width={70} height={70}></Image></span>,
+    "/nomadchefPage": <span className="flex items-center gap-4">→ <Image alt="" src="/img/nomadchef.svg" width={70} height={70}></Image></span>,
+    "/toraPage": <span className="flex items-center gap-4">→ <Image alt="" src="/img/tora.svg" width={70} height={70}></Image></span>,
+    "/xifizenPage": <span className="flex items-center gap-4">→ <Image alt="" src="/img/xifizen.svg" width={100} height={100}></Image></span>,
   };
 
   return (
-    <p className="mx-6 text-xs sm:mx-4 sm:text-sm md:mx-0 md:text-base">
-      {descriptions[pathname] || "Welcome!"}
-    </p>
+    <div className="mx-6 text-xs sm:mx-4 sm:text-sm md:mx-0 md:text-base">
+      {content[pathname] || "Welcome!"}
+    </div>
   );
 }

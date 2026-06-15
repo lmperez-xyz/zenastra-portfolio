@@ -7,16 +7,9 @@ export default function Projects() {
     return(
         <div className="p-5 flex flex-col items-center justify-center">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <Link className="block" href="/">
+                <Link className="block" href="/locaiPage">
                 <Card className="hover:scale-101 transition-transform hover:shadow-[0_0_25px_rgba(255,255,255,0.2)] duration-200 relative overflow-hidden h-64 border flex items-center justify-center">
                     <Image alt="" src="/img/d-locai.png" width={500} height={500} className="object-cover"></Image>
-
-                     {/* <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
-
-                    <div className="absolute bottom-4 left-4 z-10 text-white">
-                        <span className="text-sm text-gray-400">AI Assistant</span>
-                        <h3 className="text-xl font-bold">Locai</h3>
-                    </div> */}
 
                     <span className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 rounded bg-black/60 px-2 py-1 text-white flex items-center justify-center border rounded-full border-white">
                         <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="currentColor"><path d="M352 64C352 46.3 337.7 32 320 32C302.3 32 288 46.3 288 64L288 128L192 128C139 128 96 171 96 224L96 448C96 501 139 544 192 544L448 544C501 544 544 501 544 448L544 224C544 171 501 128 448 128L352 128L352 64zM160 432C160 418.7 170.7 408 184 408L216 408C229.3 408 240 418.7 240 432C240 445.3 229.3 456 216 456L184 456C170.7 456 160 445.3 160 432zM280 432C280 418.7 290.7 408 304 408L336 408C349.3 408 360 418.7 360 432C360 445.3 349.3 456 336 456L304 456C290.7 456 280 445.3 280 432zM400 432C400 418.7 410.7 408 424 408L456 408C469.3 408 480 418.7 480 432C480 445.3 469.3 456 456 456L424 456C410.7 456 400 445.3 400 432zM224 240C250.5 240 272 261.5 272 288C272 314.5 250.5 336 224 336C197.5 336 176 314.5 176 288C176 261.5 197.5 240 224 240zM368 288C368 261.5 389.5 240 416 240C442.5 240 464 261.5 464 288C464 314.5 442.5 336 416 336C389.5 336 368 314.5 368 288zM64 288C64 270.3 49.7 256 32 256C14.3 256 0 270.3 0 288L0 384C0 401.7 14.3 416 32 416C49.7 416 64 401.7 64 384L64 288zM608 256C590.3 256 576 270.3 576 288L576 384C576 401.7 590.3 416 608 416C625.7 416 640 401.7 640 384L640 288C640 270.3 625.7 256 608 256z"/></svg>
@@ -25,7 +18,7 @@ export default function Projects() {
                 </Card>
                 </Link>
 
-                <Link className="block" href="/">
+                <Link className="block" href="/egardenPage">
                 <Card className="hover:scale-101 transition-transform hover:shadow-[0_0_25px_rgba(255,255,255,0.2)] duration-200 relative overflow-hidden h-64 border flex items-center justify-center">
                     <Image alt="" src="/img/d-egarden.png" width={500} height={500} className="object-cover"></Image>
                     <span className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 rounded bg-black/60 px-2 py-1 text-white flex items-center justify-center border rounded-full border-white">
@@ -35,7 +28,7 @@ export default function Projects() {
                 </Card>
                 </Link>
 
-                <Link className="block" href="/">
+                <Link className="block" href="/viacademyPage">
                 <Card className="hover:scale-101 transition-transform hover:shadow-[0_0_25px_rgba(255,255,255,0.2)] duration-200 relative overflow-hidden h-64 border flex items-center justify-center">
                 <Image alt="" src="/img/d-viacademy.png" width={500} height={500} className="h-auto w-auto"></Image>
                     <span className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 rounded bg-black/60 px-2 py-1 text-white flex items-center justify-center border rounded-full border-white">
@@ -45,7 +38,7 @@ export default function Projects() {
                 </Card>
                 </Link>
 
-                <Link className="block" href="/">
+                <Link className="block" href="/toraPage">
                 <Card className="hover:scale-101 transition-transform hover:shadow-[0_0_25px_rgba(255,255,255,0.2)] duration-200 relative overflow-hidden h-64 border flex items-center justify-center">
                    <Image alt="" src="/img/d-tora.png" width={500} height={500} className="h-auto w-auto"></Image>
                     <span className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 rounded bg-black/60 px-2 py-1 text-white flex items-center justify-center border rounded-full border-white">
@@ -55,7 +48,7 @@ export default function Projects() {
                 </Card>
                 </Link>
 
-                <Link className="block" href="/">
+                <Link className="block" href="/nomadchefPage">
                 <Card className="hover:scale-101 transition-transform hover:shadow-[0_0_25px_rgba(255,255,255,0.2)] duration-200 relative overflow-hidden h-64 border flex items-center justify-center">
                     <Image alt="" src="/img/d-nomadchef.png" width={500} height={500} className="h-auto w-auto"></Image>
                     <span className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 rounded bg-black/60 px-2 py-1 text-white flex items-center justify-center border rounded-full border-white">
@@ -65,7 +58,7 @@ export default function Projects() {
                 </Card>
                 </Link>
 
-                <Link className="block" href="/">
+                <Link className="block" href="/xifizenPage">
                 <Card className="hover:scale-101 transition-transform hover:shadow-[0_0_25px_rgba(255,255,255,0.2)] duration-200 relative overflow-hidden h-64 border flex items-center justify-center">
                     <Image alt="" src="/img/d-xifizen.png" width={500} height={500} className="h-auto w-auto"></Image>
                     <span className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 rounded bg-black/40 px-2 py-1 text-white flex items-center justify-center border rounded-full border-white">
