@@ -29,9 +29,9 @@ export default function SheetDemo() {
         <div className="grid flex-1 auto-rows-min gap-6 px-4">
           <div className="grid gap-3">
             <Link href="/" className="text-lg px-5 py-3 hover:outline rounded">Projects</Link>
-            <Link href="/" className="text-lg px-5 py-3 hover:outline rounded">About</Link>
-            <Link href="/" className="text-lg px-5 py-3 hover:outline rounded">Contact</Link>
-            <Link href="/" className="text-lg px-5 py-3 hover:outline rounded">Resume</Link>
+            <Link href="/about" className="text-lg px-5 py-3 hover:outline rounded">About</Link>
+            <Link href="/contact" className="text-lg px-5 py-3 hover:outline rounded">Contact</Link>
+            <Link href="/resume" className="text-lg px-5 py-3 hover:outline rounded">Resume</Link>
           </div>
           <div className="grid gap-3">
             
