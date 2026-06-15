@@ -1,6 +1,13 @@
 import Navbar from "@/components/layout/Navbar"
 import { ProductCarousel } from "@/components/ui/product-carousel"
 
+const images = [
+    "/img/locai/d-locai1.png",
+    "/img/locai/d-locai2.png",
+    "/img/locai/d-locai4.png",
+    "/img/locai/d-locai3.png",
+]
+
 export default function LocaiPage() {
     return (
         <>
@@ -9,7 +16,7 @@ export default function LocaiPage() {
             <h1 className="text-4xl font-bold mb-4">Locai</h1>
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">AI Problem | Ethical AI Solution</p>
 
-            <ProductCarousel />
+            <ProductCarousel images={images} />
         </div>
         </>
     )

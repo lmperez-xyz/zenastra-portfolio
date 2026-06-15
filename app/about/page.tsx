@@ -16,7 +16,7 @@ export default function About() {
             <p className="text-md text-gray-700 dark:text-gray-400 max-w-2xl text-center p-3">I'm a frontend developer and product designer who enjoys turning visions into thoughtful digital experiences. My skills span design, sustainability, AI, entrepreneurship, and systems thinking, though at the heart of it all, I find meaning in building things that make life a little better for people…or at least, I hope so.
             </p>
             <p className="text-md text-gray-700 dark:text-gray-400 max-w-2xl text-center p-3">
-            My interest in websites grew as I learned more about business. Over time, I began to see <b className="text-white"> software as an abstraction of real-world systems</b>, a way to make ideas, products, and services accessible to people at a global scale. So I endeavor to use that power to create things that are not only useful but also considerate, ethical, and sustainable.
+            My interest in websites grew as I learned more about business. Over time, I began to see <b className="text-white"> software as an abstraction of automated real-world systems</b>. It's a way to make ideas, products, and services accessible to people at a global scale. So I endeavor to use that power to create things that are not only useful but also considerate, ethical, and sustainable.
             </p>
 
             <p className="text-md text-gray-700 dark:text-gray-400 max-w-2xl text-center p-3">

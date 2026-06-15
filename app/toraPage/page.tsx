@@ -1,6 +1,13 @@
 import Navbar from "@/components/layout/Navbar"
 import { ProductCarousel } from "@/components/ui/product-carousel"
 
+const images = [
+    "/img/tora/d-t1.png",
+    "/img/tora/d-t2.png",
+    "/img/tora/d-t3.png",
+    "/img/tora/d-t4.png",
+]
+
 export default function ToraPage() {
     return (
         <>
@@ -9,7 +16,7 @@ export default function ToraPage() {
             <h1 className="text-4xl font-bold mb-4">Tora</h1>
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">Tourism Problem | Clean Transportation & Destination Solution</p>
 
-            <ProductCarousel />
+            <ProductCarousel images={images} />
         </div>
         </>
     )
