@@ -31,6 +31,7 @@ export const portfolio = {
       'GitHub',
       'VS Code',
       'Blender',
+      'AI',
     ],
   },
 

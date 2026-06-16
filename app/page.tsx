@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "@/components/layout/Navbar"
 import Projects from "@/components/layout/Projects"
 import Skills from "@/components/layout/Skills"
+import AIChat from "@/components/layout/AIChat"
 
 export default function Home() {
   return (
@@ -11,6 +12,10 @@ export default function Home() {
         <Projects></Projects>
     </div>
         <Skills></Skills>
+
+      <div>
+        <AIChat></AIChat>
+      </div>
     </>
   );
 }
