@@ -36,8 +36,8 @@ export default function NomadChefPage() {
         <div className="dark:bg-black">
             <Navbar></Navbar>
             <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black p-10">
-                <h1 className="text-4xl font-bold mb-4">Nomad Chef</h1>
-                <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">Factory Farming Problem | Meat Alternatives + Portable Cooking Solution</p>
+                <h1 className="text-4xl font-semibold mb-4">Nomad Chef</h1>
+                <p className="text-md text-gray-600 dark:text-gray-400 mb-8">Factory Farming Problem → Meat Alternatives + Portable Cooking Solution</p>
 
                 <ProductCarousel images={images} />
             </div>

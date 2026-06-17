@@ -2,7 +2,6 @@
 
 import Navbar from "@/components/layout/Navbar"
 import { ProductCarousel } from "@/components/ui/product-carousel"
-import ProductViewer from "@/components/ui/product-viewer"
 import ProductCodeToggle from "@/components/ui/product-code-toggle"
 
 const images = [
@@ -38,8 +37,8 @@ export default function LocaiPage() {
         <div className="dark:bg-black">
             <Navbar></Navbar>
             <div className="flex flex-col flex-1 items-center justify-center font-sans dark:bg-black p-10">
-                <h1 className="text-4xl font-bold mb-4">Locai</h1>
-                <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">AI Problem | Ethical AI Solution</p>
+                <h1 className="text-4xl font-semibold mb-4">Locai</h1>
+                <p className="text-md text-gray-600 dark:text-gray-400 mb-8">AI Power Systems Problem → Ethical AI Solution</p>
 
                 <ProductCarousel images={images} />
             </div>
