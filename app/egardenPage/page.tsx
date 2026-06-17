@@ -43,7 +43,7 @@ export default function EgardenPage() {
             </div>
             <div>
                 <ProductCodeToggle 
-                modelUrl="/models/mt-egarden.glb" 
+                modelUrl="/models/m-egarden.glb" 
                 features={productFeatures}
                 sourceCodeImage="/img/figma-designs/fig-egarden.png"
                 sourceCodeTitle="Code Title"

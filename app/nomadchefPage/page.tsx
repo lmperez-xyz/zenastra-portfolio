@@ -44,7 +44,7 @@ export default function NomadChefPage() {
 
             <div>
                 <ProductCodeToggle
-                    modelUrl="/models/dt-xifizen.glb"
+                    modelUrl="/models/d-nomadchef.glb"
                     features={productFeatures}
                     sourceCodeImage="/img/figma-designs/fig-nomadchef.png"
                     sourceCodeTitle="Code Title"

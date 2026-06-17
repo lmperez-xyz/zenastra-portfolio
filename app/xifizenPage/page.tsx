@@ -45,7 +45,7 @@ export default function XifizenPage() {
 
             <div>
                 <ProductCodeToggle
-                    modelUrl="/models/mt-egarden.glb"
+                    modelUrl="/models/m-xifizen.glb"
                     features={productFeatures}
                     sourceCodeImage="/img/figma-designs/fig-xifizen.png"
                     sourceCodeTitle="Code Title"

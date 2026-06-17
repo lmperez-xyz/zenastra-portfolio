@@ -44,7 +44,7 @@ export default function ToraPage() {
 
             <div>
                 <ProductCodeToggle
-                    modelUrl="/models/mt-egarden.glb"
+                    modelUrl="/models/m-tora.glb"
                     features={productFeatures}
                     sourceCodeImage="/img/figma-designs/fig-tora.png"
                     sourceCodeTitle="Code Title"

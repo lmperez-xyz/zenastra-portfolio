@@ -46,7 +46,7 @@ export default function LocaiPage() {
 
             <div>
                 <ProductCodeToggle 
-                modelUrl="/models/mt-egarden.glb" 
+                modelUrl="/models/m-locai.glb" 
                 features={productFeatures} 
                 sourceCodeImage="/img/figma-designs/fig-locai.png"
                 sourceCodeTitle="Code Title"

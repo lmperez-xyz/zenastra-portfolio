@@ -44,7 +44,7 @@ export default function ViAcademyPage() {
 
             <div>
                 <ProductCodeToggle 
-                                modelUrl="/models/mt-egarden.glb" 
+                                modelUrl="/models/m-vi.glb" 
                                 features={productFeatures}
                                 sourceCodeImage="/img/figma-designs/fig-viacademy.png"
                                 sourceCodeTitle="Code Title"
