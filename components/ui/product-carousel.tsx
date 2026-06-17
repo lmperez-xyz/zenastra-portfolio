@@ -12,6 +12,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import LoadingImage from "@/components/layout/LoadingImage"
+
 
 type ProductCarouselProps = {
   images: string[];
@@ -67,14 +69,14 @@ export function ProductCarousel({ images }: ProductCarouselProps) {
               key={index}
               className="pl-3 basis-[85%] md:basis-[70%]"
             >
-              <div className="overflow-hidden rounded-xl border">
-                <Image
-                  src={image}
-                  alt={`Product image ${index + 1}`}
+              <div className="relative aspect-video ">
+                <LoadingImage
                   width={1600}
                   height={900}
+                  src={image}
+                  alt={`Product image ${index + 1}`}
+                  className="object-cover rounded-xl border border-zinc-800"
                   draggable={false}
-                  className="block w-full h-auto pointer-events-none"
                 />
               </div>
             </CarouselItem>
