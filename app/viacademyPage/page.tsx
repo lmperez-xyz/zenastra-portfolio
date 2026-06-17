@@ -1,6 +1,5 @@
 import Navbar from "@/components/layout/Navbar"
 import { ProductCarousel } from "@/components/ui/product-carousel"
-import ProductViewer from "@/components/ui/product-viewer"
 import ProductCodeToggle from "@/components/ui/product-code-toggle"
 
 const images = [
