@@ -11,21 +11,24 @@ const images = [
 ]
 
 const productFeatures = [
-    {
-        title: "Dashboard Analytics",
-        description: "Track revenue and business metrics in real time.",
-        image: "/img/n-gradient/one.svg",
-    },
-    {
-        title: "Reporting System",
-        description: "Generate reports and export business data.",
-        image: "/img/n-gradient/two.svg",
-    },
-    {
-        title: "Workflow Automation",
-        description: "Automate repetitive tasks and save time.",
-        image: "/img/n-gradient/three.svg",
-    },
+  {
+    title: "Sustainable Transportation",
+    description:
+      "Travel smarter with access to clean-energy transportation options, including electric vehicles, shared mobility services, and other low-emission alternatives. Tora helps travelers reduce their environmental footprint without compromising convenience, comfort, or accessibility throughout their journey.",
+    image: "/img/n-gradient/one.svg",
+  },
+  {
+    title: "Eco-Friendly Stays",
+    description:
+      "Discover accommodations that prioritize sustainability through energy efficiency, responsible resource management, and environmentally conscious operations. Tora connects travelers with green-certified stays that deliver comfort and quality while supporting a healthier future for local communities and ecosystems.",
+    image: "/img/n-gradient/two.svg",
+  },
+  {
+    title: "Responsible Travel Experiences",
+    description:
+      "Explore curated activities and destinations that celebrate culture, nature, and conservation. Tora helps travelers engage with local communities, support sustainable businesses, and enjoy meaningful experiences that preserve the places they visit for future generations.",
+    image: "/img/n-gradient/three.svg",
+  },
 ]
 
 export default function ToraPage() {
@@ -43,7 +46,7 @@ export default function ToraPage() {
                 <ProductCodeToggle
                     modelUrl="/models/mt-egarden.glb"
                     features={productFeatures}
-                    sourceCodeImage="/img/source-code.png"
+                    sourceCodeImage="/img/figma-designs/fig-tora.png"
                     sourceCodeTitle="Code Title"
                     sourceCodeDescription="Code Description"
                 ></ProductCodeToggle>

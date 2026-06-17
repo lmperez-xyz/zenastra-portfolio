@@ -13,20 +13,23 @@ const images = [
 ]
 
 const productFeatures = [
-  {
-    title: "Dashboard ",
-    description: "Track revenue and business metrics in real time.",
-    image: "/img/n-gradient/one.svg",
+ {
+    title: "Sandbox OS Compartmentalization",
+    description:
+      "SandboxOS isolates apps, files, and workflows into secure virtual environments, preventing issues in one compartment from affecting the rest of the system. Users gain greater control over permissions, security, and resource allocation while maintaining a seamless experience across work, personal, and sensitive activities.",
+    image: "/img/n-gradient/one1.svg",
   },
   {
-    title: "Reporting ",
-    description: "Generate reports and export business data.",
+    title: "AI Agents",
+    description:
+      "Locai AI Agents run entirely on-device, helping automate tasks, generate content, analyze information, and streamline workflows without relying on cloud services. By keeping processing local, users benefit from advanced AI capabilities while maintaining privacy, ownership of data, and complete control over their digital environment.",
     image: "/img/n-gradient/two.svg",
   },
   {
-    title: "Workflow ",
-    description: "Automate repetitive tasks and save time.",
-    image: "/img/n-gradient/three.svg",
+    title: "Widgets Builder",
+    description:
+      "Widgets Builder allows users to create custom tools and mini-applications using natural language. With assistance from AI Agents, ideas can be transformed into functional widgets tailored to specific workflows, making software customization faster, more accessible, and perfectly aligned with individual or business needs.",
+    image: "/img/n-gradient/three1.svg",
   },
 ]
 
@@ -45,7 +48,7 @@ export default function LocaiPage() {
                 <ProductCodeToggle 
                 modelUrl="/models/mt-egarden.glb" 
                 features={productFeatures} 
-                sourceCodeImage="/img/source-code.png"
+                sourceCodeImage="/img/figma-designs/fig-locai.png"
                 sourceCodeTitle="Code Title"
                 sourceCodeDescription="Code Description"
                 ></ProductCodeToggle>

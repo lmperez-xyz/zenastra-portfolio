@@ -84,7 +84,7 @@ export default function ProductCodeToggle({ modelUrl, features, sourceCodeImage,
           </TabsTrigger>
 
           <TabsTrigger
-            value="source-code"
+            value="figma-layout"
             className="
       relative z-10
       cursor-pointer
@@ -97,7 +97,7 @@ export default function ProductCodeToggle({ modelUrl, features, sourceCodeImage,
 
     "
           >
-            Source Code
+            Figma Layout
           </TabsTrigger>
 
         </TabsList>
@@ -127,15 +127,11 @@ export default function ProductCodeToggle({ modelUrl, features, sourceCodeImage,
                 </CardDescription>
               </div>
 
-              <Link href="/" className="mt-6">
-                <Button
-                  variant="outline"
-                  className="w-fit cursor-pointer rounded-full"
-                >
-                  <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M415.9 344L225 344C227.9 408.5 242.2 467.9 262.5 511.4C273.9 535.9 286.2 553.2 297.6 563.8C308.8 574.3 316.5 576 320.5 576C324.5 576 332.2 574.3 343.4 563.8C354.8 553.2 367.1 535.8 378.5 511.4C398.8 467.9 413.1 408.5 416 344zM224.9 296L415.8 296C413 231.5 398.7 172.1 378.4 128.6C367 104.2 354.7 86.8 343.3 76.2C332.1 65.7 324.4 64 320.4 64C316.4 64 308.7 65.7 297.5 76.2C286.1 86.8 273.8 104.2 262.4 128.6C242.1 172.1 227.8 231.5 224.9 296zM176.9 296C180.4 210.4 202.5 130.9 234.8 78.7C142.7 111.3 74.9 195.2 65.5 296L176.9 296zM65.5 344C74.9 444.8 142.7 528.7 234.8 561.3C202.5 509.1 180.4 429.6 176.9 344L65.5 344zM463.9 344C460.4 429.6 438.3 509.1 406 561.3C498.1 528.6 565.9 444.8 575.3 344L463.9 344zM575.3 296C565.9 195.2 498.1 111.3 406 78.7C438.3 130.9 460.4 210.4 463.9 296L575.3 296z" /></svg>
-                  Go to Live Site →
+              <Button variant="outline" className="w-fit mt-10 rounded-full">
+                  <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M102.8 57.3C108.2 51.9 116.6 51.1 123 55.3L241.9 134.5C250.8 140.4 256.1 150.4 256.1 161.1L256.1 210.7L346.9 301.5C380.2 286.5 420.8 292.6 448.1 320L574.2 446.1C592.9 464.8 592.9 495.2 574.2 514L514.1 574.1C495.4 592.8 465 592.8 446.2 574.1L320.1 448C292.7 420.6 286.6 380.1 301.6 346.8L210.8 256L161.2 256C150.5 256 140.5 250.7 134.6 241.8L55.4 122.9C51.2 116.6 52 108.1 57.4 102.7L102.8 57.3zM247.8 360.8C241.5 397.7 250.1 436.7 274 468L179.1 563C151 591.1 105.4 591.1 77.3 563C49.2 534.9 49.2 489.3 77.3 461.2L212.7 325.7L247.9 360.8zM416.1 64C436.2 64 455.5 67.7 473.2 74.5C483.2 78.3 485 91 477.5 98.6L420.8 155.3C417.8 158.3 416.1 162.4 416.1 166.6L416.1 208C416.1 216.8 423.3 224 432.1 224L473.5 224C477.7 224 481.8 222.3 484.8 219.3L541.5 162.6C549.1 155.1 561.8 156.9 565.6 166.9C572.4 184.6 576.1 203.9 576.1 224C576.1 267.2 558.9 306.3 531.1 335.1L482 286C448.9 253 403.5 240.3 360.9 247.6L304.1 190.8L304.1 161.1L303.9 156.1C303.1 143.7 299.5 131.8 293.4 121.2C322.8 86.2 366.8 64 416.1 63.9z"/></svg>
+
+                  For Development
                 </Button>
-              </Link>
 
             </div>
 
@@ -145,39 +141,15 @@ export default function ProductCodeToggle({ modelUrl, features, sourceCodeImage,
           </CardContent>
         </div>
 
-
       </TabsContent>
 
-      <TabsContent className="flex flex-col gap-8" value="source-code">
+      <TabsContent className="flex flex-col gap-8" value="figma-layout">
         <div>
-          <CardContent className="grid md:grid-cols-2 gap-6 p-6">
+          <CardContent className="grid gap-6 p-6">
 
-            <Image width={1200} height={1200} alt="source-code" src={sourceCodeImage} className="rounded-xl"></Image>
+            <Image width={1200} height={1200} alt="figma-layout" src={sourceCodeImage} className="rounded-xl"></Image>
 
-            <div className="md:ml-15 flex h-full flex-col">
-
-              <div>
-                <CardTitle className="flex items-center gap-4 text-xl">
-                  {sourceCodeTitle}
-                </CardTitle>
-
-                <CardDescription className="mt-3 max-w-md text-base">
-                  {sourceCodeDescription}
-                </CardDescription>
-              </div>
-
-              <Link href="/" className="mt-6">
-                <Button
-                  variant="outline"
-                  className="w-fit cursor-pointer rounded-full"
-                >
-                  <svg fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" /></svg>
-
-                  View Projects on GitHub
-                </Button>
-              </Link>
-
-            </div>
+            
 
           </CardContent>
         </div>

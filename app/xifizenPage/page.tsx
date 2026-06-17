@@ -11,22 +11,26 @@ const images = [
 ]
 
 const productFeatures = [
-    {
-        title: "Dashboard Analytics",
-        description: "Track revenue and business metrics in real time.",
-        image: "/img/n-gradient/one.svg",
-    },
-    {
-        title: "Reporting System",
-        description: "Generate reports and export business data.",
-        image: "/img/n-gradient/two.svg",
-    },
-    {
-        title: "Workflow Automation",
-        description: "Automate repetitive tasks and save time.",
-        image: "/img/n-gradient/three.svg",
-    },
+  {
+    title: "The Four Domains of Wellness",
+    description:
+      "Xifizen helps individuals cultivate balanced growth across four interconnected dimensions of wellbeing: Spiritual, Mental, Physical, and Relational. By integrating insights from science and the humanities, participants gain practical tools for deeper self-understanding and meaningful life improvement.",
+    image: "/img/n-gradient/one2.svg",
+  },
+  {
+    title: "Flow & Attention Scaling",
+    description:
+      "At the heart of Xifizen are practices that strengthen focus, awareness, and intentional living. Through Flow and Attention Scaling, individuals learn to better direct their energy, improve cognition, reduce distractions, and develop sustainable habits that support long-term wellbeing.",
+    image: "/img/n-gradient/two.svg",
+  },
+  {
+    title: "Community-Powered Movement",
+    description:
+      "Xifizen is designed as a mission-driven initiative brought to life through the support of generous contributors and community advocates. By funding its development through platforms like Kickstarter, supporters help create accessible programs, experiences, and resources that empower people to thrive together.",
+    image: "/img/n-gradient/three2.svg",
+  },
 ]
+
 
 export default function XifizenPage() {
     return (
@@ -43,7 +47,7 @@ export default function XifizenPage() {
                 <ProductCodeToggle
                     modelUrl="/models/mt-egarden.glb"
                     features={productFeatures}
-                    sourceCodeImage="/img/source-code.png"
+                    sourceCodeImage="/img/figma-designs/fig-xifizen.png"
                     sourceCodeTitle="Code Title"
                     sourceCodeDescription="Code Description"
                 ></ProductCodeToggle>

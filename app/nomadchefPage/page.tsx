@@ -12,19 +12,22 @@ const images = [
 
 const productFeatures = [
   {
-    title: "Dashboard Analytics",
-    description: "Track revenue and business metrics in real time.",
+    title: "Learn Sustainable Cooking",
+    description:
+      "Master nutritious and flavorful cooking through guided lessons, recipes, and practical techniques designed for any skill level. Discover how to prepare satisfying meals without mammal meat while building confidence in creating sustainable dishes from simple, wholesome ingredients.",
     image: "/img/n-gradient/one.svg",
   },
   {
-    title: "Reporting System",
-    description: "Generate reports and export business data.",
+    title: "Portable Kitchen & Pantry",
+    description:
+      "Access a curated marketplace of long-storage ingredients and compact kitchenette essentials designed for cooking anywhere. Whether at home, traveling, camping, or living remotely, NomadChef provides the tools and ingredients needed to prepare healthy meals with convenience and flexibility.",
     image: "/img/n-gradient/two.svg",
   },
   {
-    title: "Workflow Automation",
-    description: "Automate repetitive tasks and save time.",
-    image: "/img/n-gradient/three.svg",
+    title: "Share & Connect",
+    description:
+      "Join a community of food enthusiasts who exchange recipes, cooking experiences, and sustainable living ideas. Share your creations, learn from others, and discover new ways to enjoy delicious, nutrient-rich meals while building meaningful connections around food.",
+    image: "/img/n-gradient/three1.svg",
   },
 ]
 
@@ -43,7 +46,7 @@ export default function NomadChefPage() {
                 <ProductCodeToggle
                     modelUrl="/models/dt-xifizen.glb"
                     features={productFeatures}
-                    sourceCodeImage="/img/source-code.png"
+                    sourceCodeImage="/img/figma-designs/fig-nomadchef.png"
                     sourceCodeTitle="Code Title"
                     sourceCodeDescription="Code Description"
                 ></ProductCodeToggle>

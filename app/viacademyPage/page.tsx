@@ -11,21 +11,24 @@ const images = [
 ]
 
 const productFeatures = [
-    {
-        title: "Dashboard Analytics",
-        description: "Track revenue and business metrics in real time.",
-        image: "/img/n-gradient/one.svg",
-    },
-    {
-        title: "Reporting System",
-        description: "Generate reports and export business data.",
-        image: "/img/n-gradient/two.svg",
-    },
-    {
-        title: "Workflow Automation",
-        description: "Automate repetitive tasks and save time.",
-        image: "/img/n-gradient/three.svg",
-    },
+  {
+    title: "Hands-On Learning",
+    description:
+      "Vi Academy emphasizes experiential education where knowledge is gained through practice, collaboration, and real-world application. Students learn valuable skills by actively participating in projects, workshops, and daily activities that build confidence, competence, and self-reliance.",
+    image: "/img/n-gradient/one2.svg",
+  },
+  {
+    title: "Sustainable Living Skills",
+    description:
+      "Participants develop practical expertise in permaculture, ecological design, renewable energy, natural building, and mindful living. These disciplines provide the foundation for creating resilient communities, meaningful livelihoods, and environmentally responsible solutions for the future.",
+    image: "/img/n-gradient/two.svg",
+  },
+  {
+    title: "Community & Empowerment",
+    description:
+      "Students, mentors, and practitioners live and learn together in a supportive environment built on dignity, compassion, and shared growth. Through collaboration and mutual support, Vi Academy empowers individuals to overcome barriers, unlock potential, and create lasting positive change.",
+    image: "/img/n-gradient/three2.svg",
+  },
 ]
 
 export default function ViAcademyPage() {
@@ -43,7 +46,7 @@ export default function ViAcademyPage() {
                 <ProductCodeToggle 
                                 modelUrl="/models/mt-egarden.glb" 
                                 features={productFeatures}
-                                sourceCodeImage="/img/source-code.png"
+                                sourceCodeImage="/img/figma-designs/fig-viacademy.png"
                                 sourceCodeTitle="Code Title"
                                 sourceCodeDescription="Code Description"
                                 ></ProductCodeToggle>˛

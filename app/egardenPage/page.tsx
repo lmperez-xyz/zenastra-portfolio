@@ -12,18 +12,21 @@ const images = [
 
 const productFeatures = [
   {
-    title: "Dashboard Analytics",
-    description: "Track revenue and business metrics in real time.",
+    title: "Nature-Inspired Dining",
+    description:
+      "Enjoy thoughtfully prepared meals made from versatile local ingredients in a relaxing environment filled with greenery. Sustainable practices such as banana leaf wrappers, bamboo skewers, and edible pastry dishes reduce waste while creating a unique and memorable dining experience.",
     image: "/img/n-gradient/one.svg",
   },
   {
-    title: "Reporting System",
-    description: "Generate reports and export business data.",
-    image: "/img/n-gradient/two.svg",
+    title: "Culture & Community",
+    description:
+      "Connect with people across generations through weekend workshops, interactive activities, and cultural experiences. Learn traditional crafts, food preparation techniques, and local stories while building meaningful relationships within a welcoming community-centered space.",
+    image: "/img/n-gradient/two1.svg",
   },
   {
-    title: "Workflow Automation",
-    description: "Automate repetitive tasks and save time.",
+    title: "AI & VR Adventures",
+    description:
+      "Transform your visit with immersive AI and VR experiences that let you personalize stories, visuals, sounds, and aromas. Explore unique adventures tailored to your preferences, blending technology and nature to create an unforgettable multi-sensory journey.",
     image: "/img/n-gradient/three.svg",
   },
 ]
@@ -42,7 +45,7 @@ export default function EgardenPage() {
                 <ProductCodeToggle 
                 modelUrl="/models/mt-egarden.glb" 
                 features={productFeatures}
-                sourceCodeImage="/img/source-code.png"
+                sourceCodeImage="/img/figma-designs/fig-egarden.png"
                 sourceCodeTitle="Code Title"
                 sourceCodeDescription="Code Description"
                 ></ProductCodeToggle>
