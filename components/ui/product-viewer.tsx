@@ -1,13 +1,17 @@
 'use client';
 
+import { useEffect } from 'react'
 import { CardContent } from '@/components/ui/card';
-import '@google/model-viewer';
 
 type ProductViewerProps = {
   modelUrl: string
 }
 
 export default function ProductViewer({modelUrl} : ProductViewerProps) {
+  useEffect(() => {
+    import('@google/model-viewer')
+  }, [])
+
   return (
     <div>
       <CardContent className="p-4">
