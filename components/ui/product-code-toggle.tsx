@@ -1,7 +1,6 @@
 "use client"
 
 import {
-  Card,
   CardContent,
   CardDescription,
   CardTitle,
@@ -12,7 +11,6 @@ import {
   TabsList,
   TabsTrigger,
 } from "@/components/ui/tabs"
-import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
 import { useState } from "react"
@@ -153,7 +151,6 @@ export default function ProductCodeToggle({ modelUrl, features, sourceCodeImage,
                 src={sourceCodeImage}
                 alt="Figma Layout"
                 fill
-                className="object-cover"
               />
             </div>
 

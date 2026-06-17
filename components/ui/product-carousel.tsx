@@ -69,7 +69,7 @@ export function ProductCarousel({ images }: ProductCarouselProps) {
               key={index}
               className="pl-3 basis-[85%] md:basis-[70%]"
             >
-              <div className="relative aspect-video ">
+              <div className="relative aspect-video">
                 <LoadingImage
                   width={1600}
                   height={900}

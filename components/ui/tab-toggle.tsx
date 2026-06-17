@@ -109,7 +109,7 @@ export default function TabToggle() {
                 </CardDescription>
               </div>
 
-              <Link href="/" className="mt-6">
+              <Link href="https://github.com/lmperez-xyz" className="mt-6" target="_blank">
                 <Button
                   variant="outline"
                   className="w-fit cursor-pointer rounded-full"
@@ -208,7 +208,7 @@ export default function TabToggle() {
                 </CardDescription>
               </div>
 
-              <Link href="/" className="mt-6">
+              <Link href="https://github.com/lmperez-xyz" className="mt-6" target="_blank">
                 <Button
                   variant="outline"
                   className="w-fit cursor-pointer rounded-full"
@@ -395,7 +395,7 @@ export default function TabToggle() {
                 </CardDescription>
               </div>
 
-              <Link href="/" className="mt-6">
+              <Link href="https://github.com/lmperez-xyz" className="mt-6" target="_blank">
                 <Button
                   variant="outline"
                   className="w-fit cursor-pointer rounded-full"
@@ -483,7 +483,7 @@ export default function TabToggle() {
                 </CardDescription>
               </div>
 
-              <Link href="/" className="mt-6">
+              <Link href="https://github.com/lmperez-xyz" className="mt-6" target="_blank">
                 <Button
                   variant="outline"
                   className="w-fit cursor-pointer rounded-full"

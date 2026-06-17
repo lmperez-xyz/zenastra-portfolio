@@ -11,7 +11,7 @@ export default function LoadingImage(props: LoadingImageProps) {
   return (
     <>
       {!loaded && (
-        <div className="absolute inset-0 animate-pulse rounded-inherit bg-zinc-800" />
+        <div className="absolute inset-0 animate-pulse rounded-xl bg-zinc-800" />
       )}
 
       <Image
