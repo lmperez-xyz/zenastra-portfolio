@@ -10,9 +10,9 @@ export default function NavbarDescription() {
 
   const content: Record<string, ReactNode> = {
     "/": <p>→ Let's build a brand & product that aims to solve these problems…</p>,
-    "/about": <p>→ Learn more about me.</p>,
-    "/resume": <p>→ Explore my projects.</p>,
-    "/contact": <p>→ Get in touch with me.</p>,
+    "/about": <p>→ Get to know me better</p>,
+    "/contact": <p>→ Let's connect!</p>,
+    "/resume": <p>→ Here's some of my work experiences</p>,
     "/locaiPage": <span className="flex items-center gap-4">→ <Image alt="" src="/img/locai.svg" width={70} height={70}></Image></span>,
     "/egardenPage": <span className="flex items-center gap-4">→ <Image alt="" src="/img/sunrise.svg" width={150} height={150}></Image></span>,
     "/viacademyPage": <span className="flex items-center gap-4">→ <Image alt="" src="/img/viacademy.svg" width={70} height={70}></Image></span>,

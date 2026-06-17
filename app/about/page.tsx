@@ -2,6 +2,8 @@ import Navbar from "@/components/layout/Navbar"
 import Image from "next/image"
 import Link from "next/link"
 
+import { TooltipProvider, Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip"
+
 import Panorama from "@/components/ui/panorama"
 
 export default function About() {
@@ -34,10 +36,14 @@ export default function About() {
             <p className="text-md text-gray-700 dark:text-gray-400 max-w-2xl text-center p-3">
             I’d love to hear your projects and ideas too, so <Link href="/contact"><u className="text-white"> feel free to reach out! →</u></Link>
             </p>
-
-            <p className="text-md text-gray-700 dark:text-gray-400 max-w-2xl text-center p-3">
-            Thanks for stopping by.
-            </p>
+            <TooltipProvider>
+                    <Tooltip>
+                        <TooltipTrigger asChild>
+                            <p className="text-gray-500">– Thanks for stopping by. –</p>
+                        </TooltipTrigger>
+                        <TooltipContent><p>Peace be with you :)</p></TooltipContent>
+                    </Tooltip>
+                </TooltipProvider>
         </div>
 
         <div>
