@@ -17,7 +17,7 @@ export default function SheetDemo() {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Button variant="outline"> <Menu /> </Button>
+        <Button variant="outline" className="cursor-pointer"> <Menu /> </Button>
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>

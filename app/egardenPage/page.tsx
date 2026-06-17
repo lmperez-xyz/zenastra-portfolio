@@ -30,9 +30,9 @@ const productFeatures = [
 
 export default function EgardenPage() {
     return (
-        <>
+        <div className="dark:bg-black">
             <Navbar></Navbar>
-            <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black p-10">
+            <div className="flex flex-col flex-1 items-center justify-center font-sans p-10">
                 <h1 className="text-4xl font-bold mb-4">Egarden</h1>
                 <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">Climate Change Problem | Eco Cafe Solution</p>
 
@@ -47,6 +47,6 @@ export default function EgardenPage() {
                 sourceCodeDescription="Code Description"
                 ></ProductCodeToggle>
             </div>
-        </>
+        </div>
     )
 }
