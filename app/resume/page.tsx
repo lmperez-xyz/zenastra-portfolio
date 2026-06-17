@@ -27,7 +27,7 @@ export default function Resume() {
                     </div>
                 </div>
                 <div className="flex justify-center md:justify-end">
-                    <Image width={320} height={600} alt="resume" src="/resume/LMResume.png" draggable="false" className="rounded rotate-[10deg] hover:rotate-0 transition pt-20 mr-20 m-10" ></Image>
+                    <Image width={320} height={600} alt="resume" src="/resume/LMResume.png" draggable="false" className="rotate-[10deg] rounded hover:rotate-0 transition mt-20 mr-20 m-10" ></Image>
                 </div>
             </div>
         </div>

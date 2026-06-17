@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { Menu } from "lucide-react"
 import Link from "next/link"
@@ -34,15 +36,25 @@ export default function SheetDemo() {
             <Link href="/resume" className="text-lg px-5 py-3 hover:outline rounded">Resume</Link>
           </div>
           <div className="grid gap-3">
-            
+
           </div>
         </div>
-        <SheetFooter>
-          <Button type="submit">Save changes</Button>
-          <SheetClose asChild>
-            <Button variant="outline">Close</Button>
-          </SheetClose>
-        </SheetFooter>
+
+        <div className="flex flex-row w-full justify-center">
+          <SheetFooter>
+            <SheetClose asChild>
+              <Link href="/#aiChat">
+                <Button className="w-full rounded-full p-5 cursor-pointer" onClick={() =>
+                  document
+                    .getElementById("aiChat")
+                    ?.scrollIntoView({ behavior: "smooth" })
+                }>
+                  AI Chat
+                </Button>
+              </Link>
+            </SheetClose>
+          </SheetFooter>
+        </div>
       </SheetContent>
     </Sheet>
   )

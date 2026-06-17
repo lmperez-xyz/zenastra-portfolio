@@ -12,7 +12,7 @@ export default function Home() {
       </div>
       <Skills></Skills>
 
-      <div>
+      <div id="aiChat">
         <AIChat></AIChat>
       </div>
     </div>
