@@ -48,8 +48,10 @@ projects, experience, skills, or qualifications.
         console.error(error);
 
         return Response.json(
-            {reply: "The AI assistant is temporarily unavailable. Please try again later."},
-            { error: 'Failed to generate response' },
+            {
+                reply: "The AI assistant is temporarily unavailable. Please try again later.",
+                error: 'Failed to generate response',
+            },
             { status: 500 }
         );
     }
